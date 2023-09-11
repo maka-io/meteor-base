@@ -34,3 +34,5 @@ RUN npm install -g @maka/maka-cli@latest
 RUN maka install meteor -f
 
 ENV PATH="/root/.meteor:${PATH}"
+
+ENV METEOR_ALLOW_SUPERUSER=true
